@@ -75,8 +75,8 @@ public class MicrowaveTimer {
 				System.out.println("Please put at least one " + foodItem +
 						" in the microwave.");
 			} else if(numberOfItemsI>3) {
-				System.out.println("The microwave is too small to fit three "
-						+ "in the microwave.");
+				System.out.println("The microwave is too small to fit more "
+						+ "than three in the microwave.");
 			} else {
 				//Calculate time in microwave
 				timeInMicrowave = foodTimeInMicrowave.get(foodItem) +
